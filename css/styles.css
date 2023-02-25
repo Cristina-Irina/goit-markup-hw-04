@@ -45,7 +45,8 @@ img {
 }
 
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .link {
@@ -139,7 +140,6 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -396,6 +396,12 @@ img {
 
 .footer-address li {
   padding-top: 12px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  color: var(--white-color);
+  background-color: var(--highlight-color);
 }
 /* Portfolio */
 .buttons {
